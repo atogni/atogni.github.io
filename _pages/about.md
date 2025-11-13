@@ -27,8 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am just a mechanical engineer who accidentally fell in with the wrong crowd.  
-Now I teach orbital dynamics and somehow ended up working on big space projects.
+I am just a mechanical engineer who accidentally fell in with the wrong crowd. Now I teach orbital dynamics and somehow ended up working on big space projects.
 
 As a **scientist**, I work — or used to work — on some pretty cool stuff:
 
