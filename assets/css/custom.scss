@@ -1,21 +1,22 @@
-/* ======================================================================
-   Background image for the whole site
-   ====================================================================== */
+// ======================================================================
+// Custom background for the whole site
+// ======================================================================
 
 body {
   background-image: url("/assets/img/background.jpg");
-  background-size: cover;        /* scale to fill screen */
-  background-position: center;   /* center the image */
-  background-repeat: no-repeat;  /* do not tile */
-  background-attachment: fixed;  /* keeps image fixed while scrolling */
+  background-size: cover;        // scale to fill screen
+  background-position: center;   // center the image
+  background-repeat: no-repeat;  // do not tile
+  background-attachment: fixed;  // keep image fixed while scrolling
 }
 
-/* Slight transparent background for content to remain readable */
-.page-container,
-.post,
+// Slight transparent background so content stays readable
 .wrapper,
-.content {
-  background: rgba(255, 255, 255, 0.85); /* adjust opacity if needed */
+.page,
+.post,
+.content,
+.container {
+  background-color: rgba(255, 255, 255, 0.85); // adjust opacity if needed
   border-radius: 10px;
   padding: 20px;
 }
