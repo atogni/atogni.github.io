@@ -24,15 +24,14 @@ latest_posts:
   limit: 3
 ---
 
+I am a mechanical engineer who ended up working in space science, contributing to the <a href="https://site.unibo.it/almasat-lab/en">Microsatellites and Space Microsystems</a> and <a href="https://site.unibo.it/radioscience-and-planetary-exploration-lab/en">Radio Science and Planetary Exploration</a> Laboratories in Forli, Italy, and to the <a href="https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/">Space Science Center</a> in Morehead, Kentucky.
 
-I am just a mechanical engineer who accidentally fell in with the wrong crowd. Now I teach orbital dynamics and somehow ended up working on big space projects.
-
-As a <strong>scientist</strong>, I have worked on some pretty cool stuff:
+As a <strong>scientist</strong>, I have contributed to studies in different fields:
 
 <ul>
-  <li><a href="https://www.mdpi.com/2226-4310/7/3/31">Smallsatellites testing facilities</a>.</li>
+  <li>Enabling accurate <a href="https://www.mdpi.com/2226-4310/7/3/31">testing of small satellites</a>.</li>
   <li><a href="https://www.sciencedirect.com/science/article/pii/S0165168425002087">Doppler tracking</a>, and its application to <a href="https://ieeexplore.ieee.org/abstract/document/9511674">interplanetary spacecraft</a>.</li>
-  <li>Exploration of planetary atmospheres in the Solar System through <a href="https://ieeexplore.ieee.org/abstract/document/10272370">radio occultations</a>.</li>
+  <li>Exploration of planetary atmospheres in the Solar System through <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113231">radio occultations</a>.</li>
   <li><a href="https://meetingorganizer.copernicus.org/EGU24/EGU24-17741.html">Geodesy of inner planets</a> and <a href="https://meetingorganizer.copernicus.org/EGU25/EGU25-13503.html">libration of Jovian moons</a>.</li>
 </ul>
 
