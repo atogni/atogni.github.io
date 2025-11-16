@@ -12,7 +12,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S0165168425002087},
 author = {Andrea Togni and Marco Zannoni and Paolo Tortora},
 keywords = {Frequency estimation, DTFT interpolation, Iterative estimator, Maximum likelihood estimation, Successive parabolic interpolation},
 abstract = {Extracting the frequency from a complex signal is a common task in many applications, and multiple methods exist for accurate frequency estimation under different noise conditions. Iterative algorithms based on the interpolation of the discrete Fourier transform (DFT) are known to achieve high accuracy, and methods that employ auxiliary coefficients around the peak of the DFT are recurrent in the literature. This paper presents a novel iterative algorithm for frequency estimation based on successive parabolic interpolations of three DFT coefficients. Unlike other similar methods, which typically require auxiliary fine estimators for bias reduction, the proposed method refines the frequency estimate by progressively decreasing the offset of the DFT coefficients employed at each iteration. This approach eliminates the need for external correction steps and enhances estimation accuracy as the interpolation narrows around the true frequency. The algorithm achieves performance very close to the Cramér-Rao lower bound while maintaining computational efficiency, and the fine estimation step implemented can be flexibly applied to signals with or without zero-padding, making its use suitable for a wide range of signal processing applications. Simulations confirm the high accuracy and robustness to noise of the proposed estimator, showing comparable or better performance than existing iterative techniques.},
-preview={publication_preview/fes25.png},
+preview={fes25.png},
 }
 
 @article{https://doi.org/10.1029/2024GL113231,
@@ -29,121 +29,85 @@ eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024GL113231},
 note = {e2024GL113231 2024GL113231},
 abstract = {Abstract This paper presents an analysis of Juno's first radio occultation experiments. Relying on two-way radio links in the X- and Ka-bands, we processed data from NASA's Deep Space Network antennas through a ray-tracing inversion algorithm. By effectively isolating dispersive effects, we obtained measurements of the neutral atmosphere's characteristics. This enabled the derivation of pressure and temperature profiles from the recorded frequencies. These results complement prior data from Voyager occultations and CIRS observations, providing valuable contributions to our understanding of Jupiter's atmospheric dynamics.},
 year = {2025},
-preview={publication_preview/jup25.png},
+preview={jup25.png},
 }
 
-
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{caruso2025characterization,
+  title={Characterization of Jupiter's Ionosphere using Juno's Radio Occultation Measurements},
+  author={Caruso, Andrea and Gomez Casajus, Luis and Coffin, Drew and Buccino, Dustin and Smirnova, Maria and Galanti, Eli and Gramigna, Edoardo and Parisi, Marzia and Togni, Andrea and Zannoni, Marco and others},
+  booktitle={EPSC-DPS Joint Meeting 2025 (EPSC-DPS2025},
+  pages={EPSC--DPS2025},
+  year={2025}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{togni2025assessing,
+  title={Assessing Io's Libration Using JunoCam Acquisitions},
+  author={Togni, Andrea and Gomez Casajus, Luis and Zannoni, Marco and Tortora, Paolo},
+  booktitle={EGU General Assembly Conference Abstracts},
+  pages={EGU25--13503},
+  year={2025}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{caruso2025radio,
+  title={Radio Occultations with Juno: Unveiling the Structure of Jupiter's Polar Atmosphere and Ionosphere},
+  author={Caruso, Andrea and Gomez Casajus, Luis and Smirnova, Maria and Coffin, Drew and Buccino, Dustin and Galanti, Eli and Gramigna, Edoardo and Parisi, Marzia and Togni, Andrea and Zannoni, Marco and others},
+  booktitle={EGU General Assembly Conference Abstracts},
+  pages={EGU25--16362},
+  year={2025}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{togni2024determination,
+  title={The Determination of Mercury's Libration with BepiColombo MORE Investigation using Optical Navigation},
+  author={Togni, Andrea and Bernacchia, David and Gomez Casajus, Luis and Zannoni, Marco and Tortora, Paolo and Iess, Luciano},
+  booktitle={EGU General Assembly Conference Abstracts},
+  pages={17741},
+  year={2024}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{caruso2023radio,
+  title={Radio occultation data analysis with analytical ray-tracing},
+  author={Caruso, A and Bourgoin, A and Togni, A and Zannoni, M and Tortora, P},
+  journal={Radio Science},
+  volume={58},
+  number={9},
+  pages={1--22},
+  year={2023},
+  publisher={AGU}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{togni2023voyager,
+  title={Voyager 2 Radio Occultation of Triton revisited using modernized analysis tools},
+  author={Togni, Andrea and Caruso, Andrea and Buccino, Dustin and Zannoni, Marco and Oudrhiri, Kamal and Tortora, Paolo},
+  booktitle={EGU General Assembly Conference Abstracts},
+  pages={EGU--9714},
+  year={2023}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{gramigna2022hera,
+  title={Hera inter-satellite link doppler characterization for didymos gravity science experiments},
+  author={Gramigna, Edoardo and Johansen, Jeppe Gr{\ae}sdal and Manghi, Riccardo Lasagni and Magalh{\~a}es, Jos{\'e} and Zannoni, Marco and Tortora, Paolo and Le Bras, Etienne and Togni, Andrea},
+  booktitle={2022 IEEE 9th International Workshop on Metrology for AeroSpace (MetroAeroSpace)},
+  pages={430--435},
+  year={2022},
+  organization={IEEE}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{togni2021fft,
+  title={An FFT-based method for Doppler observables estimation in Deep Space tracking},
+  author={Togni, Andrea and Zannoni, Marco and Casaj{\'u}s, Luis G{\'o}mez and Tortora, Paolo},
+  booktitle={2021 IEEE 8th International Workshop on Metrology for AeroSpace (MetroAeroSpace)},
+  pages={294--299},
+  year={2021},
+  organization={IEEE}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{modenini2020dynamic,
+  title={A dynamic testbed for nanosatellites attitude verification},
+  author={Modenini, Dario and Bahu, Anton and Curzi, Giacomo and Togni, Andrea},
+  journal={Aerospace},
+  volume={7},
+  number={3},
+  pages={31},
+  year={2020},
+  publisher={MDPI}
 }
-  

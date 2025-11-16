@@ -24,6 +24,7 @@ latest_posts:
   limit: 3
 ---
 
+
 I am just a mechanical engineer who accidentally fell in with the wrong crowd. Now I teach orbital dynamics and somehow ended up working on big space projects.
 
 As a <strong>scientist</strong>, I have worked on some pretty cool stuff:
