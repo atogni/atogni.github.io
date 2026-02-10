@@ -2,96 +2,121 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Andrea Togni
+    - name: Position
+      value: Visiting Assistant Professor
+    - name: Affiliation
+      value: Morehead State University, Morehead, Kentucky
+    - name: Email
+      value: your.email@example.com # REPLACE with your actual email
     - name: Languages
-      value: English, German
+      value: Italian <em>native</em>, English
 
-- title: Education
-  type: time_table
+- title: Research Interests
+  type: nested_list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Radio Science
+      items:
+        - Radio occultation experiments for planetary atmosphere sounding
+        - Doppler tracking techniques for deep space missions
+        - Frequency estimation algorithms for signal processing
+    - title: Planetary Science
+      items:
+        - Investigation of planetary atmospheres (Jupiter, Triton)
+        - Geodesy of inner planets and libration studies (Mercury, Io)
+    - title: Space Systems
+      items:
+        - Ground-station tracking system accuracy enhancement
+        - Inter-satellite link characterization
+        - Nanosatellite attitude verification
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Assistant Professor
+      institution: Morehead State University, Morehead, Kentucky
+      year: 2024 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Enhancement of ground-station tracking systems accuracy
+        - Advancing radio-science investigations
+    - title: Research Fellow # REPLACE with your actual title
+      institution: University of Bologna, Forlì, Italy
+      year: 2020 - 2024 # REPLACE with actual dates
       description:
-        - Description 1.
-        - Description 2.
+        - Radio Science and Planetary Exploration Laboratory
+        - Radio occultation data analysis and planetary geodesy
+        - Contributed to Juno, BepiColombo, and Hera mission studies
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PhD # REPLACE with your actual degree
+      institution: University of Bologna, Italy # REPLACE if different
+      year: 2024 # REPLACE with actual year
+      description:
+        - "Thesis: YOUR THESIS TITLE HERE"
+    - title: MSc in Mechanical/Aerospace Engineering # REPLACE with your actual degree
+      institution: University of Bologna, Italy # REPLACE if different
+      year: 2020 # REPLACE with actual year
+    - title: BSc in Mechanical/Aerospace Engineering # REPLACE with your actual degree
+      institution: University of Bologna, Italy # REPLACE if different
+      year: 2018 # REPLACE with actual year
 
-- title: Honors and Awards
+- title: Mission Involvement
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://www.nasa.gov/mission/juno/">Juno</a>
+      institution: NASA / University of Bologna
+      year: 2020 - present
+      description:
+        - Radio occultation experiments of Jupiter's atmosphere and ionosphere
+        - Assessment of Io's forced libration using JunoCam imagery
+    - title: <a href="https://www.esa.int/Science_Exploration/Space_Science/BepiColombo">BepiColombo</a>
+      institution: ESA / University of Bologna
+      year: 2022 - present # REPLACE with actual dates
+      description:
+        - Mercury's libration determination using MORE and optical navigation
+    - title: <a href="https://www.esa.int/Space_Safety/Hera">Hera</a>
+      institution: ESA / University of Bologna
+      year: 2021 - 2022 # REPLACE with actual dates
+      description:
+        - Inter-satellite link Doppler characterization for Didymos gravity science
 
-- title: Academic Interests
+- title: Teaching # REPLACE with your actual teaching experience
+  type: time_table
+  contents:
+    - title: Course Name Here # REPLACE
+      institution: Morehead State University
+      year: 2024 - present
+      description:
+        - "REPLACE: Brief description of course content"
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "REPLACE: e.g. Python, MATLAB, C/C++, Fortran"
+    - title: Tools & Software
       items:
-        - Description 1.
-        - Description 2.
+        - "REPLACE: e.g. GMAT, SPICE, Git, LaTeX"
+    - title: Techniques
+      items:
+        - Radio occultation data analysis
+        - Orbit determination and radio science
+        - Signal processing and frequency estimation
+
+- title: Honors and Awards # REPLACE with your actual awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "REPLACE: Award name and details"
+    - year: 2024
+      items:
+        - "REPLACE: Award name and details"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "REPLACE: e.g. <u>Hobbies:</u> Hiking, Photography, etc."
