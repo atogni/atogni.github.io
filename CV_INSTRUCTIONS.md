@@ -2,9 +2,9 @@
 
 Your CV page is powered by two files:
 
-| File | Purpose |
-|------|---------|
-| `_pages/cv.md` | Page settings (title, nav position, PDF link) |
+| File           | Purpose                                          |
+| -------------- | ------------------------------------------------ |
+| `_pages/cv.md` | Page settings (title, nav position, PDF link)    |
 | `_data/cv.yml` | All CV content (sections, entries, descriptions) |
 
 ---
@@ -20,13 +20,13 @@ Your CV page is powered by two files:
 ## Page Settings (`_pages/cv.md`)
 
 ```yaml
-title: Curriculum Vitae    # Page title shown in header and browser tab
-nav: true                  # Show in navbar (set false to hide)
-nav_order: 5               # Position in navbar (lower = more left)
-cv_pdf: example_pdf.pdf    # PDF download button (top-right of page)
-description:               # Optional subtitle below the title
+title: Curriculum Vitae # Page title shown in header and browser tab
+nav: true # Show in navbar (set false to hide)
+nav_order: 5 # Position in navbar (lower = more left)
+cv_pdf: example_pdf.pdf # PDF download button (top-right of page)
+description: # Optional subtitle below the title
 toc:
-  sidebar: left             # Table of contents sidebar (left, right, or remove to disable)
+  sidebar: left # Table of contents sidebar (left, right, or remove to disable)
 ```
 
 ### PDF Download Button
@@ -55,7 +55,7 @@ Key-value table. Good for general info, contact details.
       value: Andrea Togni
     - name: Email
       value: your@email.com
-    - name: Website              # You can also add link buttons:
+    - name: Website # You can also add link buttons:
       links:
         - name: Personal Site
           link: https://atogni.github.io
@@ -69,20 +69,20 @@ Timeline entries with year badges. Good for education, experience, awards.
 - title: Experience
   type: time_table
   contents:
-    - title: Job Title                        # Bold heading
-      institution: University Name, City      # Shown with building icon
-      department: Department Name             # Optional, shown with dot icon
-      year: 2020 - present                    # Year badge on the left
-      location: City, Country                 # Optional, shown with pin icon
-      maindescription: A brief summary.       # Optional, paragraph below institution
-      description:                            # Optional, bullet list
+    - title: Job Title # Bold heading
+      institution: University Name, City # Shown with building icon
+      department: Department Name # Optional, shown with dot icon
+      year: 2020 - present # Year badge on the left
+      location: City, Country # Optional, shown with pin icon
+      maindescription: A brief summary. # Optional, paragraph below institution
+      description: # Optional, bullet list
         - First bullet point
         - Second bullet point
-        - title: Nested group title           # Bullets can have sub-bullets
+        - title: Nested group title # Bullets can have sub-bullets
           contents:
             - Sub-item 1
             - Sub-item 2
-      linkitems:                              # Optional, action buttons
+      linkitems: # Optional, action buttons
         - link: https://example.com
           linkname: Website
 ```
@@ -135,7 +135,7 @@ Add a new block anywhere in `_data/cv.yml`. Sections render in the order they ap
 
 ```yaml
 - title: My New Section
-  type: time_table          # or map, nested_list, list
+  type: time_table # or map, nested_list, list
   contents:
     - title: Entry title
       year: 2025
